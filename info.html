@@ -16,7 +16,7 @@
 	</div>
 
 
-	<hi>Dana Evernden!</hi>
+	<!--'''''''''''''''''''''uncomment here to appear<hi>Dana Evernden!</hi>
 	<img src = "http://i.huffpost.com/gen/1089611/thumbs/s-DANAEVERNDEN-large.jpg" width="350" height="250"/>
 	<h2> Summary </h2>
 	<p>Dana Evernden is a <i>learner</i></p>
@@ -32,7 +32,7 @@
 		<li> <a href "energyenthusiasmandevoo.blogspot.com">Food  blog</a></li>
 		<li> <a href = "https://www.linkedin.com/pub/dana-evernden/25/b58/64">LinkedIn</a>
 	</ul>	
-<!-- Notes -->
+<! Notes -->
 <!--in a terminal (for MAC) like prompt, write (change directory) - cd danaevernden.com to see the directory -->
 <!--write ls in the same command prompt to see the directory -->
 <!--can also cd through folders within the directory-->
@@ -48,6 +48,158 @@
 <!--html5 made these semantics to universalize webpages so everyone can understand a webpage structure-->
 <!--scalable vector graphics svgs) are replacing pngs-->
 <!--eliscoffee.com - good example of a simple website-->
+<!--10/23/2014 notes-->
+<!--style 3 different ways - style within each header, style within the <head> section with <style> and h2{font size: 48p}, or style via CSS sheet-->
+<!--.css file will be the style sheet-->
+<!--body{background color:white, rgb(233, 223, 214) or #000000;,etc}-->
+<!-- style at the top with <link style = href="StyleSheet.css"-->
+<!-- pading: 100px moves it away from the sides by 100px-->
+<!--color applies to all of the text-->
+<!-- how to provide a link at the bottom that says "Back to Top"-->
+<!--10/30/2014
+wrapper is a class
+class you can have more than one of, ids are unique
+classes are easily overwritten, ids are not
+ids are for specific objects
+
+
+CSS box model
+- padding on the inside of the box takes the attributes of the textbox and adds space between the border and the text
+- margin adds space between the element before (header) and the element after (text box) without taking attributes of either object
+
+padding is used to add space around an object
+
+margin is used for spacing between elements 
+
+position
+- relative/static/absolute/fixed - telling html where you want it on the page and how to behave in relevance to other objects on the page
+- relative - element positioning is relative to itself, not going to be affected by anything else but it's own position
+- static is the default position
+- absolute - if a div1 is within div2, and the div2 is 10 pixels down, and div1 absolute and is told to move 5 pixels down, it will move 15 pixels down
+- fixed - navigation bars that don't move at all when you scroll down
+- website css-tricks.com
+
+float
+- like a news page with multiple pictures, some on the left and some on the right
+- left - 
+- right - 
+- none - 
+
+typekit
+- allows fonts to be referenced via a link in the header so you don't have to download the files 
+
+pseudo classes
+-hover  - ordered lists like a navigation, ordered lists, etc
+- 1st child, nth child, last chlid, etc - tell everything in a list except the last child to have the same spacing. you can also do this with the nth child
+- active link - nav bar on the side, when scrolling down, the relavent links light up
+
+operators
+- rarely used
+
+11/6::::
+design for hackers - david kindary
+don't make me think - steve krug
+hex color theory
+#ffffff = white
+#000000 = black
+#ff0000 = red
+#00ff00 = green
+#0000ff = blue
+
+first two are red
+second two are green
+third two are blue
+
+wireframes are skeletons of your design - the layout of everything minus the content
+UX teams use this to problem solve to understand how clear the website is to the user
+ie. consistency with apple products
+ie. facebook makes sure their "like" button looks the same on all devices, new and old
+
+styletile are like the planning part of project runway projects 
+-swatches, color pallets, fonts, layouts, etc
+
+feature list - photos, writing, examples from other webistes 
+
+parelex - scrolling down one page instead of having different pages
+
+save photos around 100-150 kB
+
+stumbleupon = enrichment, education, and entertainment
+
+create break points in html = media queries 
+colly.com is a good example
+
+css-tricks.com  - media queries for standard devices - put this at the end of your CSS and put it at the end of your CSS and change only a few things 
+
+typography - san serifs are designed for webistes, serifs are more readable for print
+
+add font face
+put the file in a folder called "type"
+src: url('type/sansation-regular.-webfont.eot');
+
+in HTML add the stnadard tab (head title), in the CSS tab add the @import tab at the top of the CSS
+
+px, ems and rems - call the font size in the body, and then specify ratios later with percentages
+
+multiple CSS selectors - can reference two classes at once
+ex.
+class = "column_1 all"
+this is two classes ^^^
+
+.column_1, .column_2{ 
+}
+
+other responsive design examples - can shink the width of the website to see what it looks like on an iphone
+
+
+useful websites:
+pxtoem.com  - pixels to ems 
+typescale.com - aspect ratios of fonts, 
+cleanbottle.com - water bottle/ipod holder
+website design awards awwwards.com
+good website designs - google to find more
+colorschemedesigner.com - color pallets for websites
+colourlovers.com - free pallets
+balsamiq - good for wireframing
+uxpin - can make designs and break points
+wireify.com - makes a wireframe out of any website
+auth0.com - user identification for developers
+gimp.com - editing pictures
+column grid - google, shows a grid of the screen
+command shift 4 on MAC shows the size of an object on a screen
+colly.com - example of breakpoints
+css-tricks.com  - media queries for standard devices
+siteinspire.com
+fontawesome.com
+kuler - color pallet
+stock photos:
+veer.com
+pixabay.com
+fotolia.com
+behance.net - inspiration for design
+cssbuttongenerator.com - generates button CSS and html for your website
+http://www.slidesjs.com/ - slider, or google "javascript slider"
+
+11/13:
+design:
+design for your user and your content - what do you ultimately want your users to know about you?
+javascript is what makes animations (ex. image slide show, fancy animated buttons)
+
+To do:
+
+
+-->
+
+
+
+
+<a id="Top"> ' top of the document'
+<a href="#Top"></a> <!-- this refers to the a id tag above "Top"-->
+<!--I have an account on fontspring.com-->
+<style href="styles.css" ref="stylesheet" type="tyle/css">
+<!--fontsquirrel.com has font styles for free that you attach in your folder-->
+
+
 	<p>This is my favorite song</p> 
 	<iframe title="YouTube video player" class="youtube-player" type="text/html" width="640" height="390" src="http://www.youtube.com/embed/K64cCwbEe2c" frameborder="0" allowFullScreen></iframe>
 

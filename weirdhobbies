@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Karma' rel='stylesheet' type='text/css'> 
+</head>
+<body>
+	<nav>
+		<ul class="navi">
+				<li><a href ="index3.html">Main</a></li>
+				<li><a href ="weirdhobbies.html">Weird Hobbies</a></li>
+				<li><a href ="learning.html">Learning</a></li>
+				<li><a href ="about.html">Process Improvement</a></li>
+				<li><a href ="resume.html">Resume</a></li>
+				<li><a href ="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+
+	<ul class="hobbies">
+				<li><a href ="http://www.livingroot.org">Living Root Dragon Boat</a></li>
+					<li>Paddler on community team, 2012 - Present</li>
+				<li><a href ="http://energyenthusiasmandevoo.blogspot.com">Blog</a></li>
+				<li><a href ="http://www.bigsister.org">Big Sisters of Greater Boston</a></li>
+					<li>Active Big Sister, 2012 - Present </li>
+				<li><a href ="http://www.umass.edu/band/">UMass Minuteman Marching Band</a></li>
+					<li>Euphonium Player, 2007-2011</li>
+					<li>Co-chair for annual banquet for band with over 400 attendees, 2009-2010</li>
+				<li><a href ="http://www.cadets.org">Cadets</a></li>
+					<li>Member of the World Champion Cadets Drum and Bugle Corps, 2011</li>
+				<li><a href ="http://www.wmua.org">WMUA 91.1FM</a></li>
+					<li> Served as General Manager, Superivising a staff 18 strong, running weekly staff meetings, and serving as chief financial officer, 2009-2011</li>
+		</ul>
+		<footer>&copy; Copyright 2014 This website was made using html and css</footer>
+</body>
+</html>
