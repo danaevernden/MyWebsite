@@ -9,6 +9,9 @@ html body{
  	background-color: rgb(239,255,209);
 }
 
+.space{
+	margin-top:4.375em;
+}
 
 .wrapper{
 	margin:0;
@@ -23,6 +26,12 @@ html body{
 	font-family: 'Karma', serif;
 }
 
+.space2{height:45%;}
+
+.pdfresume{margin-left:45%;}
+
+table{width:100%;}
+
 
 h1{
 font-size: 1em;
@@ -30,10 +39,6 @@ font-size: 1em;
 
 h2{
 font-size: 1em;
-}
-
-.main{
-	width: 70%
 }
 
 .name{
@@ -45,7 +50,7 @@ font-size: 1em;
 
 .main{
 	padding-left: 22%;
-	padding-bottom:200px;
+	padding-bottom:12.2em;
 	width: 55%;
 	height: 90%;
 }
@@ -56,27 +61,33 @@ font-size: 1em;
 	margin-left: 20%;
 }
 
-
-
 ul li{display:inline-block;
-	padding-right:20px;
+	padding-right:1.25em;
 }
 
 nav{
 	background-color: rgb(171,171,171);/* #eeeeee;*/
-	height:50px;
-	padding-top:2px;
+	height:3.125em;
+	padding-top:.125em;
 	margin:0;
+	position: fixed;
+	left:0;
+	top:0;
 	width: 100%;
 	float:center;
 	display:inline-block;
-	border-bottom: solid 8px #4e4e4e;
+	border-bottom: solid .5em #4e4e4e;
 }
 
 .navi{
-	margin-top:15px;
+	margin-top:1em;
 	margin-left:25%;
 }
+
+img{max-width:100%;
+height: auto;
+    width: auto\9; /* ie8 */
+    }
 
 .title{	text-align:center;}
 
@@ -101,20 +112,18 @@ a {text-decoration: none;
 
 
 /*hobbies page*/
- .hobbies{
-	display:list-item;
-	padding-left:40%;
-	padding-right:10%;
-	float:right;
+ .hobbiez a:hover {
+	color: #4e4e4e;
+	}
+.hobbiez{
+	color:black;
 }
 
-.hobbiestotal{
+.pic{
+float:right;
+margin-left:18.75em;
 }
-.hobbiespics{
-	padding-left:10%;
-	padding-right:40%;
-	float:left;
-}
+
 /*learning page*/
 .learning{
 	margin-left:20%;
@@ -123,6 +132,7 @@ a {text-decoration: none;
 /*process improvement page*/
 .process{
 	margin-left:20%;
+	margin-right:20%;
 }
 /*portfolio page*/
 
@@ -135,8 +145,8 @@ a {text-decoration: none;
 .footer{text-align: center;
 	float: center;
 	width: 100%;
-	font-size:10px;	
-	padding-top:50px;
+	font-size:.625em;	
+	padding-top:3.125em;
 }
 
 
@@ -156,15 +166,14 @@ a {text-decoration: none;
     padding:0;
     list-style-type:none;
     padding-left:60%;
-}
- 
+ }
 /* Styles for the optional promo navigation container */
 #promonav
 {
-    padding:4px;
+    padding:.25em;
     background:#eee;
-    border:1px solid #e0e0e0;
-    margin-top:1px;
+    border:.125em solid #e0e0e0;
+    margin-top:.125em;
     margin-left:20%;
     margin-right:20%;
 }
@@ -179,8 +188,8 @@ a {text-decoration: none;
 /* Link styles in promo navigation  */
 #promonav a
 {
-    padding:0 3px;
-    border:1px solid #eee;
+    padding:0.25em;
+    border:.25em solid #eee;
     text-decoration:none;
     outline:0;
     color:#777;
