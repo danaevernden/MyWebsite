@@ -4,6 +4,18 @@
 	<title>Contact</title>
 	<link href="style.css" rel="stylesheet" type="text/css">
 	<link href='http://fonts.googleapis.com/css?family=Karma' rel='stylesheet' type='text/css'> 
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+    $('.media1').animate({
+  opacity: 'toggle',
+  top: '+=100',
+  }, 1000, function() {
+  $('#target').removeAttr('style'); 
+});
+});
+</script>
+
 </head>
 
 <body>
@@ -20,10 +32,17 @@
 
 	<div class="space">
 			<ul>
-				<div class="media"><a href "facebook.com/dana.evernden">Facebook</a>
+				<div class="media1"><img src="images/email.jpg" width="50" height="50"><a href = "mailto:devernde@gmail.com"></a>
 				</div>
-				<div class="media"><a href = "https://www.linkedin.com/pub/dana-evernden/25/b58/64">LinkedIn</a>
+				<div class="media"><img src="images/facebook.png" width="50" height="50"><a href "facebook.com/dana.evernden"></a>
 				</div>
+				<div class="media"><img src="images/linkedin.jpg" width="50" height="50"><a href = "https://www.linkedin.com/pub/dana-evernden/25/b58/64"></a>
+				</div>
+				<div class="media"><img src="images/instagram.jpg" width="50" height="50"><a href = "http://instagram.com/devernden"></a> <!--change-->
+				</div>
+				<!--<div class="media"><img src="images/googleplus.png" width="50" height="50"><a href = "https://plus.google.com/108356067403320799895/posts"></a> 
+				</div>-->
+				
 			</ul>		
 
 		<div class="footer">
